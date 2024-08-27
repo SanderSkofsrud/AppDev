@@ -1,0 +1,8 @@
+<resources>
+    <!-- Fjern eller omdøp denne hvis den er en duplikat -->
+    <style name="Theme.Oving_1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+</resources>
