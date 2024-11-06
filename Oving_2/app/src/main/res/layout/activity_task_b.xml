@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Number 1 TextView -->
+        <TextView
+            android:id="@+id/number1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Number 2 TextView -->
+        <TextView
+            android:id="@+id/number2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Answer Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/svar"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Answer EditText -->
+        <EditText
+            android:id="@+id/answerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="8"/>
+
+        <!-- Upper Limit Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ovre_grense"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Upper Limit EditText -->
+        <EditText
+            android:id="@+id/upperLimitEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="10"/>
+
+        <!-- Add Button -->
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adder"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Multiply Button -->
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multipliser"
+            android:layout_marginTop="8dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Oving_2</string>
+    <string name="adder">Adder</string>
+    <string name="multipliser">Multipliser</string>
+    <string name="svar">Svar:</string>
+    <string name="ovre_grense">Øvre grense:</string>
+    <string name="riktig">Riktig!</string>
+    <string name="feil_riktig_svar_er">Feil. Riktig svar er</string>
+</resources>

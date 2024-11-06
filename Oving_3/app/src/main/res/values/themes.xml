@@ -1,0 +1,11 @@
+<!-- res/values/themes.xml -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Oving_3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Example: Define your color scheme -->
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
+
+</resources>

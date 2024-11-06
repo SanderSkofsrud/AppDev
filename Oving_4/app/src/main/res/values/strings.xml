@@ -1,0 +1,20 @@
+<resources>
+    <!-- Existing strings -->
+    <string name="app_name">Oving_4</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <!-- Movie Titles -->
+    <string-array name="item_titles">
+        <item>Megashark vs Crocosaurus</item>
+        <item>Sharknado 6</item>
+        <item>The VelociPastor</item>
+    </string-array>
+
+    <!-- Item Descriptions -->
+    <string-array name="item_descriptions">
+        <item>A megalodon battles with a crocosaurus causing massive destruction. The US Army has to try and destroy the havoc creating monsters.</item>
+        <item>Fin has to go back in time to rejoin his shark-battling friends to stop the first Sharknado and save humanity.</item>
+        <item>After losing his parents, a priest travels to China, where he inherits a mysterious ability that allows him to turn into a dinosaur. At first horrified by this new power, a hooker convinces him to use it to fight crime. And ninjas.</item>
+    </string-array>
+</resources>
